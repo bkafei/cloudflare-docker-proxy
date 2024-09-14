@@ -20,6 +20,7 @@ const routes = {
   "docker-staging.xzbb2.xyz": dockerHub,
 };
 
+
 function routeByHosts(host) {
   if (host in routes) {
     return routes[host];
